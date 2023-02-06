@@ -1,6 +1,1 @@
-# rust-new-project-template
-A good starting point for a new Rust project
-
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+This mini project takes in a string and two numbers and output a 256x256 pixel image of the colors representing the combination of those inputs. Each of the letters in the string are converted to its equal integer value. And for each of the pixels on the image, a letter (or its numeric equivalent) is sampled with replacement. Each of these pixel values is then randomly selected to be one of the RGB values. The other two values are found based on a perturbation of the pixel value based on the two numeric inputs. The final output is saved as a PNG file. This is meant to simulate a crude version of a heatmap based on your name and birthdate (month and day). 
